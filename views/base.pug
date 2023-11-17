@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Dance studio 
+    block scripts
+    block style 
+    
+  body
+    nav#navbar 
+        ul 
+            img(src="static/logo.jpg")#logo
+            li.item #[a(href="/home") home]
+            li.item #[a(href="/") classes]
+            li.item #[a(href="/") dance form]
+            li.item #[a(href="/") about] 
+            li.item #[a(href="/contact") contact us]
+    block content            
+    block foot
+      footer#footer
+        | Copyright © 2019 HarryAcademy.com | All Rights Reserved
+      
+        

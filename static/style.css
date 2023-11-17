@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&family=Merriweather:ital,wght@0,300;1,300&family=Mukta:wght@200&family=PT+Serif:ital@1&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Mono', monospace;;
+}
+
+#navbar {
+    background-color: rgb(167, 61, 61);
+    font-family: 'Yeon Sung';
+    padding: 13px 14px;
+}
+#logo{
+    display: flex;
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    color: white;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("static/drew-colins-LIEQsu5JuoM-unsplash.jpg");
+    background-size: cover;
+    height: 500px;
+    background-color: red;
+}
+
+#introSection div.small {
+    font-size: 52px;
+    padding: 5px;
+}
+
+#missionSection{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.boxContainer{
+    display: flex;
+    flex-direction: row;
+    border: 4px solid yellowgreen;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+}
+#footer {
+    display: flex;
+    background-color: black;
+    height: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}

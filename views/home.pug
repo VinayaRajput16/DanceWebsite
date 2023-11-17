@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+       include ../static/style.css
+block content 
+        
+        section#introSection 
+            | section for picture 
+        section#missionSection
+            h2 Our Mission
+            div.boxContainer
+                div.card
+                    h3 Dance Perfection
+                    p
+                    | At our academy, we strive to help you achieve your dance goals, whether you&apos;re a beginner or an experienced dancer. We believe that everyone has the potential to dance with passion and grace.
+                div.card
+                    h3 Dance the Way You Like
+                    p
+                    | We encourage you to express yourself through dance and find your own unique style. There are no right or wrong ways to dance, as long as you&apos;re having fun and feeling the music.
+                div.card
+                    h3 Expert Teaching
+                    p
+                    | Our instructors are highly trained and experienced professionals who are passionate about teaching dance. They will guide you every step of the way and help you reach your full potential.
+ 
+        section#sponsersSection 
+            | our sponser 

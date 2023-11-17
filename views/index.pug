@@ -1,0 +1,45 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+    body 
+        nav#navbar 
+            ul 
+                img(src="static/logo.jpg")#logo
+                li.item #[a(href="/") home]
+                li.item #[a(href="/") classes]
+                li.item #[a(href="/") dance form]
+                li.item #[a(href="/") about] 
+                li.item #[a(href="/") contact us]
+        section#introSection 
+            | section for picture 
+        section#missionSection
+            h2 Our Mission
+            div.card 
+                h3 dance perfection 
+            div.card
+                h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="")
+                div.card-content
+                    p This is the best dance academy of the universe
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="")
+
+                div.card-content
+                    p This is the best dance academy of the universe    
+        section#sponsersSection 
+            | our sponser 
+
+        footer#footer
+        | Copyright © 2019 HarryAcademy.com | All Rights Reserved      
+        script 
+            include ../static/index.js
+
+        
