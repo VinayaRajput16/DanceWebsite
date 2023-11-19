@@ -8,12 +8,19 @@ html
     
   body
     nav#navbar 
+        div#mySidenav.sidenav
+            a.closebtn(href='javascript:void(0)' onclick='closeNav()') &times;
+            a(href='/profile') Profile
+            a(href='/progress') Progress
+            a(href='/merch') Buy Merch 
+            a(href='/Account') Create Account 
+        span#sp(onclick='openNav()') Menu
         ul 
             img(src="static/logo.jpg")#logo
             li.item #[a(href="/home") home]
-            li.item #[a(href="/") classes]
-            li.item #[a(href="/") dance form]
-            li.item #[a(href="/") about] 
+            li.item #[a(href="/classes") classes]
+            li.item #[a(href="/forms") dance form]
+            li.item #[a(href="/about") about] 
             li.item #[a(href="/contact") contact us]
     block content            
     block foot

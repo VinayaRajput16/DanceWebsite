@@ -22,6 +22,7 @@ form{
   background-color: rgb(168, 85, 85);
   padding: 4px;
   width: 80px;
+  font-weight: bold;
 }
 .btn:hover{
   background-color: rgb(204, 16, 16);

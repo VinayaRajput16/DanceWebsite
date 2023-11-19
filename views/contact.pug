@@ -13,10 +13,9 @@ block content
         h1 Contact Us
         form(class="myForm", action= "/contact", method= "post")
           <input type="text", class= "myInput", name="name", placeholder="Enter your name..">
-          <input type="phone", class= "myInput", name="phone", placeholder="Enter your name..">
+          <input type="phone", class= "myInput", name="phone", placeholder="Enter your phone..">
           <input type="email", class= "myInput", name="email", placeholder="Enter your email..">
-          <input type="number", class= "myInput", name="age", placeholder="Enter your age..">
-          <input type="text", class= "myInput", name="danceForm", placeholder="Enter your dance form..">
-          <input type="text", class= "myInput", name="country", placeholder="Enter your country ..">
-           button(class="btn", type="submit")
+          textarea(name='message', rows='10', cols='30', class="myInput")
+            | Enter your query.
+          button(class="btn", type="submit")
             | submit 

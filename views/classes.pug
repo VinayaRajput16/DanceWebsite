@@ -1,0 +1,32 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/styleclasses.css
+block content
+     
+    div.container
+      div#class1.blk
+        img(src="/static/roboticsbg.jpeg")
+        h3 Instructor: Poppin John
+        h4 Robotics dance 
+        button.btn 
+          | learn now 
+      div#class2.blk
+        img(src="/static/breakthrough.jpg")
+        h3 Instructor: Nonstop 
+        h4 breakthrough freestyle 
+        button.btn 
+          | learn now 
+      div#class3.blk
+        img(src="/static/takitaki.jpg")
+        h3 Instructor: Jojo Gomez
+        h4 takitaki freestyle 
+        button.btn 
+          | learn now 
+
+    
