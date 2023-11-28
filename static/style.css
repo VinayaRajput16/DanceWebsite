@@ -9,7 +9,7 @@
     font-family: 'Merriweather', serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'PT Serif', serif;
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #navbar {
@@ -129,7 +129,7 @@
 .boxContainer{
     display: flex;
     flex-direction: row;
-    border: 4px solid yellowgreen;
+   
 }
 .card{
     display: inline-block;
